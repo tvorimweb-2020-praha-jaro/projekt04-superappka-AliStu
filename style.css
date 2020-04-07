@@ -31,3 +31,140 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.hlavicka {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+}
+
+.hlavicka a {
+    text-decoration: none;
+    color: black;
+}
+
+.hlavicka li {
+    padding: 10px 40px 10px 40px;
+    margin: 0;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.hlavicka a:hover,
+.hlavicka a:active,
+.hlavicka a:focus {
+    font-weight: bold;
+    
+}
+
+.vizual {
+    height: 450px;
+    background-image: url(images/pozadi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+.telefon {
+    position: absolute;
+    left: 555px;
+    top: 50px;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 400;
+    margin: 0;
+    padding: 45px 45px 20px 45px;
+}
+
+.popis {
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0;
+    padding: 0 45px 0 45px;
+}
+
+.akce {
+    margin-top: 40px;
+    margin-left: 45px;
+    position: inline-block;
+
+}
+
+.stahnout {
+    padding: 15px 25px 15px 25px;
+    border: 1px solid white;
+    border-radius: 5%;
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+}
+
+.vice {
+    margin-left: 15px;
+    padding: 15px 25px 15px 25px;
+    border: 1px solid white;
+    border-radius: 5%;
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+}
+
+.stahnout:hover,
+.stahnout:focus,
+.stahnout:active {
+    background-color: #48418e;
+}
+
+.vice:hover,
+.vice:focus,
+.vice:active {
+    background-color: #48418e;
+}
+
+h2 {
+    color: #48418e;
+    font-size: 16px;
+}
+
+.paticka {
+    color: white;
+    background-color: #48418e;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    flex: 1 1 30%;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.letadlo,
+.bubliny,
+.mapa {
+    display: relative;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    padding: 15px;
+}
+
+.letadlo p,
+.bubliny p,
+.mapa p {
+    font-size: 14px;
+}
+
+.letadlo h2,
+.bubliny h2,
+.mapa h2 {
+    font-size: 16;
+}
